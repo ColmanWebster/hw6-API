@@ -4,11 +4,39 @@ div{
     text-align: center;
 }
 
+body{
+    text-align: center;
+}
+
 #container{
     border: 1px solid black;
     height: 300px;
-    width: 500px;
+    width: 600px;
     margin: 30px auto 0 auto;  
+}
+
+#inputSmall{
+    width: 100px;
+    height: 15px;
+    font-size: 8px;
+    display: inline;
+    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#search{
+    height: 30px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 1px solid black;
+}
+
+#submit{
+    width: 15px;
+    font-size: 8px;
+    padding: 0 0 0 0;
+    display: inline;
 }
   
 .stats{
@@ -30,7 +58,9 @@ div{
 
 .card{
     display: inline-block;
-    height: 60px;
+    height: 70px;
+    
+    font-size: 5px;
 }
 
 .cities{
@@ -40,6 +70,7 @@ div{
 .city{
     height: 30px;
     background-color: lightpink;
+    border: 1px solid black;
 }
 
 .subcont{
