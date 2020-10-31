@@ -20,24 +20,26 @@
       </div>
       
       <div class = 'row'>
-        <div class = "col-md-4 cities">
+        <div class = 'subcont2'>
           <div class = "col-md-12 " id = "search">
             <div class="form-group">
               <label class="col-form-label col-form-label-sm" for="inputSmall"></label>
               <input class="form-control form-control-sm" type="text" placeholder="Search By City" id="inputSmall">
               <button id = 'submit'>GO</button>
-            </div>
-              
-          </div class = 'cities'>
-          
+            </div>   
+          </div>
+        
+        <div class = "col-md-4 cities">  
         </div>
+        </div>
+
         <div class = "col-md-8 subcont">
           <div class = "col-md-12 stats">
-            <h5>CITY & DATE</h5>
-            <span>Temperature</span></br>
-            <span>Humidity</span></br>
-            <span>Wind Speed</span></br>
-            <span>UV Index</span></br>
+            <h5 id = "cityDate">CITY & DATE</h5>
+            <span id = "temp">Temperature</span></br>
+            <span id = "hum">Humidity</span></br>
+            <span id = "wind">Wind Speed</span></br>
+            <span id = "uvi">UV Index</span></br>
           </div>
         </hr>
           <div class = "col-md-12 cards">
@@ -67,10 +69,6 @@
       </div>
 
     </div>
-
-    <p>"Hi scores" array in local storage for search history, left.</p>
-    <p>JSON parse of API response object for city data, including 5-day forecast.</p>
-    <p>5-day forecast written into boot-swatch cards.</p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
